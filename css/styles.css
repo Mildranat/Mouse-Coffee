@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Oswald;
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.nav {
+    padding: 0 50px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-li {
+    margin: 10px;
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+}
+.link{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+.link:hover{
+    color: rgb(114, 173, 240);
+}
+
+.container-home-img {
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/HOME.png");
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.container-story {
+    padding: 20px 30px;
+    width: 90%;
+    display: flex;
+    align-items: center; 
+}
+.container-offer {
+    padding: 20px 30px;
+    width: 90%;
+    display: flex;
+    align-items: center; 
+    flex-direction: row-reverse;
+}
+.container-story img, .container-offer img {
+    width: 600px;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.story-description {
+    margin-left: 40px;
+}
+
+.offer-description {
+    margin-right: 40px;
+}
+
+.text-story, .text-offer {
+    margin: 20px 0;
+}
+
+.footer {
+    background-color: #817070;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-text {
+    margin: 10px;
+}
